@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Journal — NEVURA Society</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="site-header">
+    <header class="site-header">
+      <div class="nav-inner">
+
+        <a class="wordmark" href="index.html">
+          Nevura<small>SOCIETY</small>
+        </a>
+
+        <button class="menu-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Open navigation menu">☰</button>
+
+        <nav class="site-nav" id="main-nav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="structure.html">STRUCTURE</a>
+          <a href="programs.html">PROGRAMS</a>
+          <a href="events.html">EVENTS</a>
+          <a href="give.html">GIVE</a>
+          <a href="join.html">JOIN</a>
+        </nav>
+
+        <a class="nav-join" href="join.html">JOIN</a>
+      </div>
+    </header>
+  </div>
+
+  <!-- BACK TO HOME -->
+  <div class="subpage-toolbar container">
+    <a class="back-home-button" href="index.html">
+      <span aria-hidden="true">←</span>
+      BACK TO HOME
+    </a>
+  </div>
+
+  <!-- CONTENT GENERATED FROM script.js -->
+  <main id="post-detail" class="post-detail container">
+  </main>
+
+  <!-- PHOTO LIGHTBOX -->
+  <dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+
+    <button
+      type="button"
+      class="lightbox-close"
+      aria-label="Close photo">×</button>
+
+    <img alt="Expanded gallery photo">
+
+  </dialog>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

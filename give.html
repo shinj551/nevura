@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Give — NEVURA Society</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="site-header">
+    <header class="site-header">
+      <div class="nav-inner">
+
+        <a class="wordmark" href="index.html">
+          Nevura<small>SOCIETY</small>
+        </a>
+
+        <button class="menu-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Open navigation menu">☰</button>
+
+        <nav class="site-nav" id="main-nav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="structure.html">STRUCTURE</a>
+          <a href="programs.html">PROGRAMS</a>
+          <a href="events.html">EVENTS</a>
+          <a href="give.html">GIVE</a>
+          <a href="join.html">JOIN</a>
+        </nav>
+
+        <a class="nav-join" href="join.html">JOIN</a>
+      </div>
+    </header>
+  </div>
+
+  <main>
+
+    <div class="subpage-toolbar container">
+      <a class="back-home-button" href="index.html">
+        <span aria-hidden="true">←</span>
+        BACK TO HOME
+      </a>
+    </div>
+
+    <!-- INTRO -->
+    <section class="page-intro container">
+
+      <p class="eyebrow wine-text">
+        05 / NEVURA GIVING
+      </p>
+
+      <h1>
+        Give what you can.<br>
+        <em>Every contribution matters.</em>
+      </h1>
+
+      <p class="intro-note">
+        Support the next generation of creative
+        work and student opportunities.
+      </p>
+
+    </section>
+
+    <!-- GIVING PANEL -->
+    <section class="section burgundy-section give-section">
+      <div class="container give-inner">
+
+        <p class="eyebrow">
+          CHOOSE AN AREA TO SUPPORT
+        </p>
+
+        <div class="choice-row" id="fund-choices">
+
+          <button
+            type="button"
+            class="choice active"
+            data-fund="Annual Scholarship Fund"
+            aria-pressed="true">
+            SCHOLARSHIP FUND
+          </button>
+
+          <button
+            type="button"
+            class="choice"
+            data-fund="Creative Events Programme"
+            aria-pressed="false">
+            CREATIVE EVENTS
+          </button>
+
+          <button
+            type="button"
+            class="choice"
+            data-fund="Student Opportunity Grants"
+            aria-pressed="false">
+            STUDENT GRANTS
+          </button>
+
+        </div>
+
+        <p class="eyebrow give-label">
+          EXAMPLE CONTRIBUTION
+        </p>
+
+        <p class="donation-display">
+          £<span id="donation-value">50</span>
+        </p>
+
+        <input
+          id="donation-range"
+          aria-label="Contribution amount in pounds"
+          type="range"
+          min="5"
+          max="1000"
+          step="5"
+          value="50"
+        >
+
+        <div class="range-labels">
+          <span>£5</span>
+          <span>£250</span>
+          <span>£500</span>
+          <span>£1,000</span>
+        </div>
+
+        <a
+          class="button button-cream full-button"
+          id="donation-action"
+          href="mailto:hello@nevura.org">
+          ENQUIRE ABOUT SUPPORTING NEVURA
+        </a>
+
+        <p class="small-note center-text light-note">
+          This is an enquiry, not a payment.
+          A confirmed donation system and university
+          approval are required before collecting funds.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>

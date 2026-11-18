@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join — NEVURA Society</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div id="site-header">
+    <header class="site-header">
+      <div class="nav-inner">
+
+        <a class="wordmark" href="index.html">
+          Nevura<small>SOCIETY</small>
+        </a>
+
+        <button class="menu-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Open navigation menu">☰</button>
+
+        <nav class="site-nav" id="main-nav">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="structure.html">STRUCTURE</a>
+          <a href="programs.html">PROGRAMS</a>
+          <a href="events.html">EVENTS</a>
+          <a href="give.html">GIVE</a>
+          <a href="join.html">JOIN</a>
+        </nav>
+
+        <a class="nav-join" href="join.html">JOIN</a>
+      </div>
+    </header>
+  </div>
+
+  <main class="join-background">
+
+    <!-- BACK TO HOME -->
+    <div class="subpage-toolbar container">
+      <a class="back-home-button" href="index.html">
+        <span aria-hidden="true">←</span>
+        BACK TO HOME
+      </a>
+    </div>
+
+    <section class="section container join-layout">
+
+      <!-- LEFT INTRO -->
+      <div class="join-intro">
+
+        <p class="eyebrow">
+          06 / GET INVOLVED
+        </p>
+
+        <h1>
+          Find your place<br>
+          <em>in NEVURA.</em>
+        </h1>
+
+        <p>
+          Join the society, share your work,
+          or volunteer for a project.
+          All New School students are welcome.
+        </p>
+
+        <div class="founders">
+
+          <p class="eyebrow">FOUNDERS</p>
+
+          <p>
+            Anastasia Serghie
+            <small>Mannes School of Music</small>
+          </p>
+
+          <p>
+            Sienna Lee
+            <small>Parsons School of Design</small>
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT FORM -->
+      <form id="join-form" class="join-form">
+
+        <div class="choice-row" id="join-choices">
+
+          <button
+            type="button"
+            class="choice active"
+            data-type="Become a member"
+            aria-pressed="true">
+            BECOME A MEMBER
+          </button>
+
+          <button
+            type="button"
+            class="choice"
+            data-type="Submit work"
+            aria-pressed="false">
+            SUBMIT WORK
+          </button>
+
+          <button
+            type="button"
+            class="choice"
+            data-type="Volunteer"
+            aria-pressed="false">
+            VOLUNTEER
+          </button>
+
+        </div>
+
+        <div class="form-two">
+
+          <label>
+            NAME
+            <input
+              name="name"
+              autocomplete="name"
+              required
+              placeholder="Your name"
+            >
+          </label>
+
+          <label>
+            EMAIL
+            <input
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              placeholder="you@newschool.edu"
+            >
+          </label>
+
+        </div>
+
+        <label>
+          SCHOOL & PROGRAM
+          <input
+            name="school"
+            required
+            placeholder="e.g. Parsons — Communication Design"
+          >
+        </label>
+
+        <label>
+          MESSAGE
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Tell us a little about your interest..."
+          ></textarea>
+        </label>
+
+        <button
+          class="button button-wine full-button"
+          type="submit">
+          PREPARE EMAIL
+        </button>
+
+        <p class="small-note">
+          Opens an email draft in your mail app.
+          This form does not store or send data automatically.
+        </p>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+
+</body>
+</html>
